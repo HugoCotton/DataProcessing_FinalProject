@@ -1,0 +1,5 @@
+My main extracurricular at the moment is the algorithmic portfolio of the PPLE investment club. 
+
+  Aside from traditional quant methods, I'm wondering whether sentiment analysis can be used to enhance
+signals for given stocks, and so an investigation into the correlation between an uptick/downturn in a 
+given stock price and the frequency of positive/negative mentions of the stock (checking sentiment from a list of certain keywords)
