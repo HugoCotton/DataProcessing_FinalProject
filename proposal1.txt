@@ -5,4 +5,13 @@ signals for given stocks, and so an investigation into the correlation between a
 given stock price and the frequency of positive/negative mentions of the stock (checking sentiment from a list of certain keywords)
 
 
-Research Question: Is there a correlation between the sentiment of stock mentions on social media/news and subsequent stock price changes? (Is there any predictive angle?)
+Research Question: How strong is the correlation between discussion of stocks in the media and price changes? or To what extent is media sentiment predictive of/correlated to stock price in the short term?
+
+This project will be done using the Alpacas API, an industry standard paper-trading and fintech service, to gather both price and news historical data. Initially, only the volume of mentions of a given ticker in headlines on a given day will be used, and compared with the % price change over the following 7 days. In a potentially more advanced version, basic sentiment analysis will be performed on these headlines, scoring a ticker positively or negatively, and then comparing this result with the % price change over the following 7 days.
+
+To establish correlation, tests such as Pearson's R or Spearman's Rho will be performed upon the data.
+
+The final product will likely be graphical, displaying multiple stocks' price graphs with news mentions overlaid (positive or negative), as well as tables/graphs demonstrating correlation in raw data, as well as examples of strong correlation
+
+
+Skills to be used: APIs (alpacas), file-handling (recording test data for comparison), sentiment analysis (likely basic, using lists of certain positively/negatively correlated keywords), graphical representation (creating graphs etc.)
